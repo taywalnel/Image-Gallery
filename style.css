@@ -1,0 +1,108 @@
+#canvas{
+    width: 500px;
+    height: 700px;
+    background-color: #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+#dimensions{
+    width: 400px;
+    margin: auto;
+}
+
+#widthDiv,
+#heightDiv{
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#widthInput,
+#heightInput{
+    height: 30px;
+    width: 280px;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#buttonDiv{
+    background-color: #dfdfdf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    border: none;
+    background-color:#3f9dff;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#gallery{
+    width: 400px;
+    height: 496px;
+    background-color: white;
+    margin: auto;
+    
+}
+
+#featuredImg{
+    width: 380px;
+    height: 380px;
+    background-color: #dfdfdf;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 92px;
+    background-color: #dfdfdf;
+    float: left;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#img1{
+    margin-left: 10px;
+}
+#img4{
+    margin-right: 10px;
+}
+#img2, 
+#img3,
+#img4{
+    margin-left: 4px;
+}
+
+#imgFormat{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input{
+    border: none;
+}
